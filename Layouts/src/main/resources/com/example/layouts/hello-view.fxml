@@ -1,0 +1,106 @@
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.TilePane?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<StackPane fx:controller="com.example.layouts.HelloController"
+           xmlns:fx ="http://javafx.com/fxml" >
+    <Label text="Label text" style="-fx-background-color: green"/>
+    <Button text = "Button One" style="-fx-background-color: red"/>
+    <Label text="second Label text" style="-fx-background-color: blue"/>
+
+</StackPane>
+
+
+
+<!-- TILE PANE -->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.TilePane?>-->
+
+<!--<TilePane fx:controller="com.example.layouts.HelloController"-->
+<!--          xmlns:fx ="http://javafx.com/fxml" >-->
+<!--    <Button text = "Button One"/>-->
+<!--    <Button text = "Button two"/>-->
+<!--    <Button text = "Button three"/>-->
+<!--    <Button text = "Button four"/>-->
+<!--    <Button text = "Button five"/>-->
+<!--    <Button text = "Button six"/>-->
+<!--    <Button text = "Button seven"/>-->
+<!--    <Button text = "Button eight"/>-->
+<!--    <Button text = "Button nine"/>-->
+<!--    <Button text = "Button ten"/>-->
+
+<!--</TilePane>-->
+
+
+
+
+
+
+
+
+
+
+        <!-- FLOW PANE -->
+<!--<?import javafx.scene.layout.FlowPane?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.geometry.Insets?>-->
+<!--<FlowPane fx:controller="com.example.layouts.HelloController"-->
+<!--          xmlns:fx ="http://javafx.com/fxml" >-->
+<!--    <Button text = "Button One"/>-->
+<!--    <Button text = "Button two"/>-->
+<!--    <Button text = "Button three"/>-->
+<!--    <Button text = "Button four"/>-->
+<!--    <Button text = "Button five"/>-->
+<!--    <Button text = "Button six"/>-->
+<!--    <Button text = "Button seven"/>-->
+<!--    <Button text = "Button eight"/>-->
+<!--    <Button text = "Button nine"/>-->
+<!--    <Button text = "Button ten"/>-->
+
+<!--</FlowPane>-->
+
+
+
+
+<!-- BORDER PANE -->
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<?import javafx.scene.layout.BorderPane?>-->
+
+<!--<?import javafx.scene.control.Label?>-->
+
+<!--<BorderPane xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="com.example.layouts.HelloController">-->
+<!--    <top>-->
+<!--        <Label text="This label is in the top Position" alignment="center"-->
+<!--               BorderPane.alignment="CENTER"-->
+<!--        style="-fx-border-color: blue; -fx-border-style: dashed; -fx-border-width:3px;"/>-->
+<!--    </top>-->
+
+<!--    <center>-->
+<!--        <Label text="This label is added in the center position and has really looooooooooooooooooooong text"/>-->
+<!--    </center>-->
+
+<!--    <left>-->
+<!--        <Label text="this label is in the left position" alignment="CENTER"/>-->
+<!--    </left>-->
+
+<!--    <right>-->
+<!--        <Label text="this label is in the right position"/>-->
+<!--    </right>-->
+
+<!--    <bottom>-->
+<!--        <HBox spacing="10" alignment="bottom_right">-->
+<!--            <padding>-->
+<!--                <Insets bottom="10" right="10"/>-->
+<!--            </padding>-->
+<!--         <Button text = "Okay" prefWidth="100"/>-->
+<!--         <Button text = "Cancel" prefWidth="100"/>-->
+<!--         <Button text = "Help" prefWidth="100"/>-->
+<!--        </HBox>-->
+<!--    </bottom>-->
+<!--</BorderPane>-->
