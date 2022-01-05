@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Mihajlo</first_name>
+	<last_name>Ristevski</last_name>
+	<phone_number>12345</phone_number>
+	<notes>mynewnotes</notes>
+</contact>
+<contact>
+	<first_name>Bojan</first_name>
+	<last_name>Tasevski</last_name>
+	<phone_number>431213</phone_number>
+	<notes>notes</notes>
+</contact>
+</contacts>
